@@ -212,14 +212,14 @@
     content: '';
     position: absolute;
     width: 280px;
-    height: 82px;
+    height: 85px;
     background: #03a9f4;
     top: 0;
   }
   nav::after {
     content: '';
     position: absolute;
-    border: 82px solid;
+    border: 85px solid;
     border-bottom: 0;
     border-color: transparent transparent #03a9f4 #03a9f4;
     top: 0;
@@ -500,7 +500,7 @@
   /* --------------------------------------------------------------------------------------------------------------------------- */
 
   .btn-sizing {
-    font-size: 10px;
+    /* width:  10px; */
   }
   .border-car {
     border: 2px solid #03a9f4;
@@ -1519,11 +1519,11 @@ text-align: center;
 }
   
 
-@media(max-width: 460px){
+@media(max-width: 550px){
 
     .main-carwsel.owl-carousel.owl-theme .owl-item.active
       {
-        width: 380px !important;
+        width: 300px !important;
         margin: auto;
     }
     .card.position-relative.overflow-hidden {
