@@ -1439,3 +1439,7 @@
         transform-origin: 1px 50%;
     }
 }
+.nav-links .nav-link:hover .drop-menu {
+    transform: scaley(1);
+    opacity: 1;
+  }
