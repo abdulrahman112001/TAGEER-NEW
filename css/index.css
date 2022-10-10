@@ -704,7 +704,7 @@
       z-index: 1000;
   }
   .main-carwsel.owl-theme .owl-nav .owl-prev {
-    color: #472559;
+    color: white !important;
     width: 30px;
     border-radius: 50%;
     text-align: center;
@@ -713,7 +713,7 @@
   }
   .main-carwsel.owl-theme .owl-nav .owl-next {
     font-size: 26px;
-    color: #472559;
+    color: white !important;
     width: 30px;
     border-radius: 50%;
     transition: 0.5s;
@@ -730,7 +730,7 @@
     box-shadow: 0 0 8px rgb(0 0 0 / 10%);
     background: #ccc;
     position: absolute;
-    top: -330px;
+    top: -330px !important;
     color:white
   }
   .owl-carousel.owl-theme.owl-loaded.owl-drag .owl-nav  {
@@ -748,11 +748,11 @@
     box-shadow: 0 0 8px rgb(0 0 0 / 10%);
     background: #ccc;
     position: absolute;
-    top: -280px;
-    color:white
+    top: calc(50% - 60px);
+        color:white
   }
   .owl-carousel.owl-theme.owl-loaded.owl-drag .owl-nav .owl-prev {
-    color: #472559;
+    color: white !important;
     width: 30px;
     border-radius: 50%;
     text-align: center;
@@ -761,7 +761,7 @@
 }
 .owl-carousel.owl-theme.owl-loaded.owl-drag .owl-nav .owl-next {
     font-size: 26px;
-    color: #472559;
+    color: white !important;
     width: 30px;
     border-radius: 50%;
     transition: 0.5s;
@@ -774,12 +774,17 @@
         border-radius: 50%;
         text-align: center;
         transition: 0.5s;
-        right: 94%;
+        right: 94% !important;
    
     }
     .main-carwsel.owl-theme .owl-nav .owl-next{
-      left: 94%;
+      left: 94% !important;
     }
+    .owl-carousel.owl-theme.owl-loaded.owl-drag .owl-nav .owl-nex {
+        width: 15px;
+        height: 15px;
+    }
+  
     
   }
    
@@ -1479,6 +1484,50 @@
     transform: scaley(1);
     opacity: 1;
   }
+  .screen .owl-dots {
+    width: 200px;
+    margin: 25px auto 0;
+    text-align: center;
+  }
 
-
+  @media (min-width:460px) {
   
+    .owl-theme .owl-dots {
+      display: none;
+    }
+  }
+  @media (max-width:460px) {
+  
+    .owl-theme .owl-nav {
+      display: none;
+    }
+  }
+  .owl-dots{
+text-align: center;
+  }
+  button.owl-dot span{
+    background: #03a9f4;
+  
+    color: #03a9f4;
+    /* border: px solid; */
+    margin: auto;
+    padding: 2px;
+    font-size: 1px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 3px;
+}
+  
+
+@media(max-width: 460px){
+
+    .main-carwsel.owl-carousel.owl-theme .owl-item.active
+      {
+        width: 380px !important;
+        margin: auto;
+    }
+    .card.position-relative.overflow-hidden {
+        width: 100% !important;
+        margin: auto;
+}
+}
