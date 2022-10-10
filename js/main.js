@@ -102,5 +102,5 @@ up.onclick = function () {
 //   ]
 // });
 
-$(".datepicker").datepicker({ dateFormat: "D dd M yy" });
-$(".horizontal-datepicker").datepicker({ dateFormat: "dd M yy" });
+// $(".datepicker").datepicker({ dateFormat: "D dd M yy" });
+// $(".horizontal-datepicker").datepicker({ dateFormat: "dd M yy" });
