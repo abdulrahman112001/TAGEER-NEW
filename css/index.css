@@ -1551,6 +1551,7 @@ text-align: center;
 #topheader .navigation   li > a:hover, #topheader  li > a:focus {
   background-color: #03a9f4;
   color: #fff;
+  padding: 4px 8px;
 }
 
 #topheader .navigation  li.active  a {
