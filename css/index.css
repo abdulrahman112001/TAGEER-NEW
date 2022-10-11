@@ -251,7 +251,7 @@
   .nav-links .nav-link > a {
     color: #141414;
     transition: all 0.2s ease;
-    padding: 4px 8px;
+    padding: 1px 8px;
     border-radius: 4px;
     white-space: nowrap;
   }
@@ -314,7 +314,7 @@
     position: absolute;
     top: 62px;
     left: 0;
-    z-index: 99999;
+    z-index: 999999;
      background-color: White;
     min-width: 220px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
@@ -412,7 +412,7 @@
   .card .title {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
   }
   .card .title img {
     object-fit: fill;
@@ -1488,6 +1488,7 @@
     width: 200px;
     margin: 25px auto 0;
     text-align: center;
+    margin: -71px 0 0 0;
   }
 
   @media (min-width:460px) {
@@ -1520,14 +1521,40 @@ text-align: center;
   
 
 @media(max-width: 550px){
+    .main-carwsel.owl-carousel.owl-theme .owl-item
+    {
+      height: 581.92px !important;
+      transition: 0.3s;
+      margin: auto;
+  }
+  .main-carwsel.owl-carousel.owl-theme .owl-item .card-img-top{
+    width: 84%;
+    transition: 0.3s;
 
+  }
     .main-carwsel.owl-carousel.owl-theme .owl-item.active
       {
         width: 300px !important;
+        height: 581.92px !important;
+
         margin: auto;
+    }
+    .main-carwsel.owl-carousel.owl-theme .owl-item.active .card-img-top{
+        width: 100% !important;
     }
     .card.position-relative.overflow-hidden {
         width: 100% !important;
         margin: auto;
 }
+}
+
+#topheader .navigation   li > a:hover, #topheader  li > a:focus {
+  background-color: #03a9f4;
+  color: #fff;
+}
+
+#topheader .navigation  li.active  a {
+  background-color: #03a9f4;
+
+  color: #fff;
 }

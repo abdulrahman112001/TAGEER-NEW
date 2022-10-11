@@ -63,3 +63,11 @@ responsive: [
   }
 ]
 });
+const greeting = async() => {
+    var y = await "Welcome";
+    console.log(y);
+}
+
+console.log(1);
+greeting();
+console.log(2);
