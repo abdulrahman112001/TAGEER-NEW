@@ -1577,13 +1577,13 @@ right: 20px;
     margin: auto;
 }
 .main-carwsel.owl-carousel.owl-theme .owl-item .card-img-top{
-    /* width: 84%; */
+    width: 84%;
    /* transition: 0.3s; */
 
 }
   .main-carwsel.owl-carousel.owl-theme .owl-item.active
     {
-      /* width: 339px !important; */
+      width: 339px !important;
   
 
       margin: auto;
