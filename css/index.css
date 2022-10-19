@@ -150,7 +150,7 @@ nav {
   /* margin-bottom: 30px; */
 }
 .nav-link {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 .navbar {
   width: 95%;
@@ -312,7 +312,7 @@ nav::after {
 /* ## Drop Menu ## */
 .drop-menu {
   position: absolute;
-  top: 62px;
+  top: 42px;
   left: 0;
   z-index: 999999;
    background-color: White;
@@ -1557,7 +1557,7 @@ button.owl-dot span{
 #topheader .navigation   li > a:hover, #topheader  li > a:focus {
 background-color: #03a9f4;
 color: #fff;
-padding: 4px 8px;
+/* padding: 4px 8px; */
 }
 
 #topheader .navigation  li.active  a {
@@ -1595,4 +1595,124 @@ right: 20px;
       width: 100% !important;
       margin: auto;
 }
+}
+.swiper {
+  position:unset;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+  opacity: 1;
+  cursor: auto;
+  pointer-events: none;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  width: 30px;
+  height: 30px;
+  box-shadow: 0 0 8px rgb(0 0 0 / 10%);
+  background: #ccc;
+  position: absolute;
+  top: calc(50% + -3px);
+  color: white;
+  border-radius: 50%;
+
+}
+.main-swiper{
+  position: relative;
+  
+}
+
+
+.swiper-button-next:after,
+ .swiper-button-prev:after {
+  font-size: 13px;}
+
+
+/* sec-seven */
+.sec-seven{
+  background: #1FB9B3;
+}
+
+
+.sex-eight .dote{
+  top: 39px;
+  left: 38%;
+}
+
+.owl-carousel .owl-nav.disabled {
+ display: block;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: -36px;
+  left: auto;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  left: -36px;
+  right: auto;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: -25px;
+  left: 0;
+  width: 100%;
+}
+@media (min-width:460px) {
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction 
+{
+  display: none !important;
+}
+}
+
+.main-swiper {
+  position: relative;
+  height: 100%;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+    flex-shrink: 0;
+    width: 294px !important;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+}
+
+.parg{
+  padding: 0;
 }

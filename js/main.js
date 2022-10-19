@@ -11,8 +11,10 @@ $('#serach-input').keyup(function(){
 })
 
 $('.main-carwsel').owlCarousel({
+  loop: true,
   margin: 10,
   nav: true,
+  loop:true,
   // autoplay:true,
   // autoplayTimeout:1000,
   // autoplayHoverPause:true,
@@ -32,8 +34,10 @@ $('.main-carwsel').owlCarousel({
   },
 });
 $('.owl-carousel').owlCarousel({
+  loop: true,
   margin: 10,
   nav: true,
+  loop:true,
 
   responsive: {
     0: {

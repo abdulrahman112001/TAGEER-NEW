@@ -602,7 +602,7 @@ nav::after {
 }
 
 .details {
-    margin-top: 10rem;
+    margin-top: 1rem;
     margin-bottom: 40px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
@@ -1864,7 +1864,7 @@ footer .foot::before {
 }
 
 .mySwiper2 {
-    height: 100%;
+    /* height: 100%; */
     width: 100%
 }
 
@@ -2174,9 +2174,9 @@ footer .foot::before {
 }
 
 @media (max-width:992px) {
-    .wedgits {
+    /* .wedgits {
         margin-top: 870px
-    }
+    } */
 }
 
 .fa-solid.fa-caret-down {
