@@ -37,7 +37,19 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
   <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/dark.css">
 
-
+<style>
+  .details{
+    height: 70vh;
+    overflow: scroll;
+  }
+  @media (max-width:928px) {
+    .details{
+    height: 50vh;
+    overflow: scroll;
+  }
+    
+  }
+</style>
 </head>
 
 <body>
@@ -941,8 +953,7 @@
           </div>
 
           <!-- Details Section -->
-          <div style="    height: 304.4px;
-          overflow: scroll;" class="details   ">
+          <div class="details   ">
             <div>
               <h2>BMW Convertible Slider</h2>
               <img src="./images/brands/lamborghini.png" alt="">
