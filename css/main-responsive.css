@@ -901,6 +901,10 @@
     .swip {
         height: 50%;
     }
+    .details {
+        margin-top: -7rem;
+    
+    }
 
 }
 
@@ -1069,7 +1073,7 @@
 
 @media (max-width:992px) {
     .wedgits {
-        /* margin-top: 315%; */
+        margin-top: 4%;
     
     }
 
@@ -1153,3 +1157,4 @@
         display: none;
     }
 }
+/* -------- */

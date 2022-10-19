@@ -1633,16 +1633,7 @@ right: 20px;
   font-size: 13px;}
 
 
-/* sec-seven */
-.sec-seven{
-  background: #1FB9B3;
-}
 
-
-.sex-eight .dote{
-  top: 39px;
-  left: 38%;
-}
 
 .owl-carousel .owl-nav.disabled {
  display: block;
@@ -1711,6 +1702,7 @@ right: 20px;
     height: 100%;
     position: relative;
     transition-property: transform;
+    margin-right: 10px !important;
 }
 
 .parg{

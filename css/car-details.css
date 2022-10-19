@@ -1816,12 +1816,12 @@ footer .foot::before {
     padding: 0
 }
 
-.swiper {
+.swip .swiper {
     width: 100%;
     height: 100%
 }
 
-.swiper-slide {
+.swip .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -1839,14 +1839,14 @@ footer .foot::before {
     align-items: center
 }
 
-.swiper-slide img {
+.swip .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover
 }
 
-.swiper {
+.swip  .swiper {
     background: #fff;
     color: #fff
 }
@@ -1858,38 +1858,44 @@ footer .foot::before {
     margin-right: auto
 }
 
-.swiper-slide {
+.swip .swiper-slide {
     background-size: cover;
     background-position: center
 }
 
-.mySwiper2 {
+.swip .mySwiper2 {
     /* height: 100%; */
     width: 100%
 }
 
-.mySwiper {
+.swip .mySwiper {
     height: 35%;
     box-sizing: border-box;
     padding: 10px 0
 }
 
-.mySwiper .swiper-slide {
+.swip .mySwiper .swiper-slide {
     width: 25%;
     height: 100%;
     opacity: .4
 }
 
-.mySwiper .swiper-slide-thumb-active {
+.swip .mySwiper .swiper-slide-thumb-active {
     opacity: 1
 }
 
-.swiper-slide img {
+.swip .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover
 }
+/* .swip .swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;} */
 
 @media (max-width:415px) {
     .swip {
@@ -2406,3 +2412,74 @@ select {
  }
  
  }
+
+
+ 
+.owl-carousel .owl-nav.disabled {
+    display: block;
+   }
+   .swiper-button-next, .swiper-rtl .swiper-button-prev {
+     right: -36px;
+     left: auto;
+   }
+   .swiper-button-prev, .swiper-rtl .swiper-button-next {
+     left: -36px;
+     right: auto;
+   }
+   .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+     bottom: -25px;
+     left: 0;
+     width: 100%;
+   }
+   @media (min-width:460px) {
+     .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction 
+   {
+     display: none !important;
+   }
+   }
+   
+   .main-swiper {
+     position: relative;
+     height: 100%;
+   }
+   
+   
+   .swiper {
+     width: 100%;
+     height: 100%;
+   }
+   
+   .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #fff;
+   
+     /* Center slide text vertically */
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     -webkit-align-items: center;
+     align-items: center;
+   }
+   
+   .swiper-slide img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+   }
+   
+   .cars .swiper-slide {
+       flex-shrink: 0;
+       width: 294px !important;
+       height: 100%;
+       position: relative;
+       transition-property: transform;
+   }
