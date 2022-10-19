@@ -2370,4 +2370,39 @@ select {
     font-family: FontAwesome;
   }
  
-
+  @media(max-width: 550px){
+    .main-carwsel.owl-theme .owl-nav{
+        display: none;
+    }
+    .main-carwsel.owl-carousel.owl-theme .owl-item
+    {
+      transition: 0.3s;
+      margin: auto;
+  }
+  .main-carwsel.owl-carousel.owl-theme .owl-item .card-img-top{
+      /* width: 84%; */
+     /* transition: 0.3s; */
+  
+  }
+    .main-carwsel.owl-carousel.owl-theme .owl-item.active
+      {
+        width: 339px !important;
+    
+  
+        margin: auto;
+    }
+    .main-carwsel.owl-carousel.owl-theme .owl-item.active .card-img-top{
+        width: 100% !important;
+    }
+    .card.position-relative.overflow-hidden {
+        width: 100% !important;
+        margin: auto;
+  }
+  }
+  @media (min-width:728px) {
+    .car-slider-category{
+     /* margin: 300px 0; */
+ 
+ }
+ 
+ }

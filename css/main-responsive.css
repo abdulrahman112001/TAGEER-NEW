@@ -1069,7 +1069,8 @@
 
 @media (max-width:992px) {
     .wedgits {
-        margin-top: 870px;
+        /* margin-top: 315%; */
+    
     }
 
 }

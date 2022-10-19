@@ -661,11 +661,6 @@ footer {
 .x_top_header_wrapper2 {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
-  padding-top: 5px;
-  /* padding-right: 10px; */
-  padding-bottom: 5px;
-  /* padding-left: 10px; */
   text-align: center;
   position: relative;
   top: 0;
@@ -1573,4 +1568,31 @@ color: #fff;
 
 .up.active {
 right: 20px;
+}
+
+@media(max-width: 550px){
+  .main-carwsel.owl-carousel.owl-theme .owl-item
+  {
+    transition: 0.3s;
+    margin: auto;
+}
+.main-carwsel.owl-carousel.owl-theme .owl-item .card-img-top{
+    /* width: 84%; */
+   /* transition: 0.3s; */
+
+}
+  .main-carwsel.owl-carousel.owl-theme .owl-item.active
+    {
+      /* width: 339px !important; */
+  
+
+      margin: auto;
+  }
+  .main-carwsel.owl-carousel.owl-theme .owl-item.active .card-img-top{
+      width: 100% !important;
+  }
+  .card.position-relative.overflow-hidden {
+      width: 100% !important;
+      margin: auto;
+}
 }
