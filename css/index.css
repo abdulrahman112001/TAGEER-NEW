@@ -1709,8 +1709,10 @@ right: 20px;
 .swiper-slide{
   width: 280px !important;
 }
+.swiper {
+  width: calc(100% - 50px) !important;
 }
-
+}
 .parg{
   padding: 0;
 }
