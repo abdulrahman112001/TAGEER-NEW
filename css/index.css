@@ -1698,11 +1698,17 @@ right: 20px;
 
 .swiper-slide {
     flex-shrink: 0;
-    width: 294px !important;
+    width: 362px !important;
     height: 100%;
     position: relative;
     transition-property: transform;
     margin-right: 10px !important;
+}
+@media (max-width:460px) {
+  
+.swiper-slide{
+  width: 280px !important;
+}
 }
 
 .parg{

@@ -1860,7 +1860,9 @@ footer .foot::before {
 
 .swip .swiper-slide {
     background-size: cover;
-    background-position: center
+    background-position: center;
+    margin: 3px !important;
+    
 }
 
 .swip .mySwiper2 {
@@ -1871,11 +1873,11 @@ footer .foot::before {
 .swip .mySwiper {
     height: 35%;
     box-sizing: border-box;
-    padding: 10px 0
+    padding: 4px 0
 }
 
 .swip .mySwiper .swiper-slide {
-    width: 25%;
+    width: 25% !important;
     height: 100%;
     opacity: .4
 }
@@ -2418,6 +2420,7 @@ select {
 .owl-carousel .owl-nav.disabled {
     display: block;
    }
+   
    .swiper-button-next, .swiper-rtl .swiper-button-prev {
      right: -36px;
      left: auto;
@@ -2438,48 +2441,111 @@ select {
    }
    }
    
-   .main-swiper {
-     position: relative;
-     height: 100%;
-   }
-   
-   
-   .swiper {
-     width: 100%;
-     height: 100%;
-   }
-   
-   .swiper-slide {
-     text-align: center;
-     font-size: 18px;
-     background: #fff;
-   
-     /* Center slide text vertically */
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: -webkit-flex;
-     display: flex;
-     -webkit-box-pack: center;
-     -ms-flex-pack: center;
-     -webkit-justify-content: center;
-     justify-content: center;
-     -webkit-box-align: center;
-     -ms-flex-align: center;
-     -webkit-align-items: center;
-     align-items: center;
-   }
-   
-   .swiper-slide img {
-     display: block;
-     width: 100%;
-     height: 100%;
-     object-fit: cover;
-   }
-   
-   .cars .swiper-slide {
-       flex-shrink: 0;
-       width: 294px !important;
-       height: 100%;
-       position: relative;
-       transition-property: transform;
-   }
+   .cars .swiper {
+    position:unset;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+  }
+  .cars .swiper-button-next.swiper-button-disabled, .cars  .swiper-button-prev.swiper-button-disabled {
+    opacity: 1;
+    cursor: auto;
+    pointer-events: none;
+  }
+  .cars .swiper-button-next,
+  .cars  .swiper-button-prev {
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 0 8px rgb(0 0 0 / 10%);
+    background: #ccc;
+    position: absolute;
+    top: calc(50% + -3px);
+    color: white;
+    border-radius: 50%;
+  
+  }
+   .main-swiper{
+    position: relative;
+    
+  }
+  
+  
+  .cars .swiper-button-next:after,
+  .cars .swiper-button-prev:after {
+    font-size: 13px;}
+  
+  
+  
+  
+    .cars .owl-carousel .owl-nav.disabled {
+   display: block;
+  }
+  .cars .swiper-button-next, .cars  .swiper-rtl .swiper-button-prev {
+    right: -36px;
+    left: auto;
+  }
+  .cars .swiper-button-prev, .cars  .swiper-rtl .swiper-button-next {
+    left: -36px;
+    right: auto;
+  }
+  .cars  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: -25px;
+    left: 0;
+    width: 100%;
+  }
+  @media (min-width:460px) {
+    .cars .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction 
+  {
+    display: none !important;
+  }
+  }
+  
+  .cars .main-swiper {
+    position: relative;
+    height: 100%;
+  }
+  
+  
+ .cars .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .cars .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+ .cars .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .cars .swiper-slide {
+      flex-shrink: 0;
+      width: 294px !important;
+      height: 100%;
+      position: relative;
+      transition-property: transform;
+      margin-right: 10px !important;
+  }
