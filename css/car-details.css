@@ -1851,7 +1851,7 @@ footer .foot::before {
     color: #fff
 }
 
-.swiper {
+.swip  .swiper {
     width: 100%;
     height: 300px;
     margin-left: auto;
@@ -1861,12 +1861,12 @@ footer .foot::before {
 .swip .swiper-slide {
     background-size: cover;
     background-position: center;
-    margin: 3px !important;
+    /* margin: 3px !important; */
     
 }
 
 .swip .mySwiper2 {
-    /* height: 100%; */
+    height: 100%;
     width: 100%
 }
 
@@ -1877,9 +1877,10 @@ footer .foot::before {
 }
 
 .swip .mySwiper .swiper-slide {
-    width: 25% !important;
+    width: 22% !important;
     height: 100%;
-    opacity: .4
+    opacity: .4;
+    margin-right: 3px !important;
 }
 
 .swip .mySwiper .swiper-slide-thumb-active {
@@ -2421,27 +2422,27 @@ select {
     display: block;
    }
    
-   .swiper-button-next, .swiper-rtl .swiper-button-prev {
+  .cars .swiper-button-next,  .swiper-rtl .swiper-button-prev {
      right: -36px;
      left: auto;
    }
-   .swiper-button-prev, .swiper-rtl .swiper-button-next {
+   .cars  .swiper-button-prev,  .swiper-rtl .swiper-button-next {
      left: -36px;
      right: auto;
    }
-   .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+   .cars .swiper-horizontal>.swiper-pagination-bullets, .cars .swiper-pagination-bullets.swiper-pagination-horizontal, .cars .swiper-pagination-custom, .cars .swiper-pagination-fraction {
      bottom: -25px;
      left: 0;
      width: 100%;
    }
    @media (min-width:460px) {
-     .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction 
+    .cars  .swiper-horizontal>  .swiper-pagination-bullets,
+    .cars .swiper-pagination-bullets.swiper-pagination-horizontal, .cars .swiper-pagination-custom,    .cars  .swiper-pagination-fraction 
    {
      display: none !important;
    }
    }
-   
-   .cars .swiper {
+   .cars  .swiper {
     position:unset;
     width: 100%;
     height: 100%;
@@ -2450,6 +2451,7 @@ select {
     transition-property: transform;
     box-sizing: content-box;
   }
+ 
   .cars .swiper-button-next.swiper-button-disabled, .cars  .swiper-button-prev.swiper-button-disabled {
     opacity: 1;
     cursor: auto;
@@ -2478,74 +2480,86 @@ select {
     font-size: 13px;}
   
   
-  
-  
-    .cars .owl-carousel .owl-nav.disabled {
-   display: block;
-  }
-  .cars .swiper-button-next, .cars  .swiper-rtl .swiper-button-prev {
-    right: -36px;
-    left: auto;
-  }
-  .cars .swiper-button-prev, .cars  .swiper-rtl .swiper-button-next {
-    left: -36px;
-    right: auto;
-  }
-  .cars  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-    bottom: -25px;
-    left: 0;
-    width: 100%;
-  }
-  @media (min-width:460px) {
-    .cars .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction 
-  {
-    display: none !important;
-  }
-  }
-  
-  .cars .main-swiper {
-    position: relative;
-    height: 100%;
-  }
-  
-  
- .cars .swiper {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .cars .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-  
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  
- .cars .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .cars .swiper-slide {
-      flex-shrink: 0;
-      width: 294px !important;
-      height: 100%;
-      position: relative;
-      transition-property: transform;
-      margin-right: 10px !important;
-  }
+    .cars .swiper-button-next, .cars .swiper-rtl .swiper-button-prev {
+        right: -36px;
+        left: auto;
+      }
+      .cars .swiper-button-prev,.cars .swiper-rtl .swiper-button-next {
+        left: -36px;
+        right: auto;
+      }
+      .cars .swiper-horizontal>.swiper-pagination-bullets,.cars  .swiper-pagination-bullets.swiper-pagination-horizontal,.cars .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: -25px;
+        left: 0;
+        width: 100%;
+      }
+      @media (min-width:460px) {
+        .cars .swiper-horizontal>.swiper-pagination-bullets,.cars .swiper-pagination-bullets.swiper-pagination-horizontal,.cars .swiper-pagination-custom, .swiper-pagination-fraction 
+      {
+        display: none !important;
+      }
+      }
+      .cars .swiper {
+        width: 100%;
+        height: 100%;
+      }
+      
+      .cars .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+      
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+      
+      .cars .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      .cars .swiper-slide {
+        width: 32% !important;
+        margin: 3px;
+      }
+      .swiper-slide.viewALl-swiper{
+        width: 15% !important
+      }
+      @media (max-width:960px) {
+ 
+        .cars .swiper-slide {
+          width: 45% !important;
+        }
+        .viewALl-swiper{
+            width: 50% !important
+          }
+      
+      }
+      
+      @media (max-width:460px) {
+    
+        .cars .swiper-slide {
+          width: 87% !important;
+        }
+        .swiper-slide.viewALl-swiper{
+            width: 46% !important
+          }
+       
+         
+      }
+      
+
+   

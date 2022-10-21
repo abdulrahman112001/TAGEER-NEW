@@ -1638,31 +1638,31 @@ right: 20px;
 .owl-carousel .owl-nav.disabled {
  display: block;
 }
-.swiper-button-next, .swiper-rtl .swiper-button-prev {
+.cars .swiper-button-next, .cars .swiper-rtl .swiper-button-prev {
   right: -36px;
   left: auto;
 }
-.swiper-button-prev, .swiper-rtl .swiper-button-next {
+.cars .swiper-button-prev,.cars .swiper-rtl .swiper-button-next {
   left: -36px;
   right: auto;
 }
-.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+.cars .swiper-horizontal>.swiper-pagination-bullets,.cars  .swiper-pagination-bullets.swiper-pagination-horizontal,.cars .swiper-pagination-custom, .swiper-pagination-fraction {
   bottom: -25px;
   left: 0;
   width: 100%;
 }
 @media (min-width:460px) {
-  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction 
+  .cars .swiper-horizontal>.swiper-pagination-bullets,.cars .swiper-pagination-bullets.swiper-pagination-horizontal,.cars .swiper-pagination-custom, .swiper-pagination-fraction 
 {
   display: none !important;
 }
 }
-.swiper {
+.cars .swiper {
   width: 100%;
   height: 100%;
 }
 
-.swiper-slide {
+.cars.swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -1682,25 +1682,25 @@ right: 20px;
   align-items: center;
 }
 
-.swiper-slide img {
+.cars .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.swiper-slide {
+.cars .swiper-slide {
   width: 32% !important;
   margin: 3px;
 }
 @media (max-width:960px) {
-  .swiper-slide {
+  .cars.swiper-slide {
     width: 45% !important;
   }
 }
 
 @media (max-width:460px) {
-  .swiper-slide {
+  .cars .swiper-slide {
     width: 87% !important;
   }
 }
@@ -1710,3 +1710,16 @@ right: 20px;
 .parg{
   padding: 0;
 }
+.swiper-slide.viewALl-swiper{
+  width: 15% !important
+}
+   
+@media (max-width:460px) {
+    
+  .swiper-slide.viewALl-swiper{
+      width: 46% !important
+    }
+ 
+   
+}
+
