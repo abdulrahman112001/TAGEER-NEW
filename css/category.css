@@ -11,6 +11,12 @@
     appearance: none !important;
   
   }
+  .product {
+    transition: 0.3s;
+  }
+  .product:hover {
+    box-shadow: 0 5px 15px rgb(16 49 85 / 20%);
+  }
   input, textarea {
     -webkit-user-select: text !important;
     -khtml-user-select: text  !important;
