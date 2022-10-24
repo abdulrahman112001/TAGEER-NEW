@@ -140,7 +140,7 @@ p {
   background-color: #03a9f4;
   color: #fff;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 /* ## Navbar CSS Style ## */
 nav {
@@ -175,7 +175,7 @@ nav {
   border: none;
 }
 .right-side select option {
-  background-color: white;
+  background-color: rgb(51, 41, 41);
   color: #141414;
   -webkit-appearance:none !important; 
   -webkit-appearance: none !important; 
