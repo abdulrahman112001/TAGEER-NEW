@@ -1698,6 +1698,11 @@ right: 20px;
     width: 45% !important;
   }
 }
+@media (max-width:798px) {
+  .cars .swiper-slide {
+    width: 48% !important;
+  }
+}
 
 @media (max-width:460px) {
   .cars .swiper-slide {

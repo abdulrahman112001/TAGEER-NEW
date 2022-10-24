@@ -613,7 +613,7 @@ nav::after {
 .details>div {
     display: flex;
     align-items: center;
-    justify-content: space-between
+ 
 }
 
 .details .price {
