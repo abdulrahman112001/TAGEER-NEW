@@ -146,3 +146,6 @@ select {
   margin-left: 3px !important;
 }
 
+.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
+  /* border-radius: 8px 0 0 8px !important; */
+}
