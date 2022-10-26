@@ -7,7 +7,7 @@ body{
 nav::after {
   content: "";
   position: absolute;
-  border: 82px solid;
+  border: 85px solid;
   border-bottom: 0;
   border-color: transparent #03a9f4 transparent transparent;
   top: 0;
@@ -118,3 +118,31 @@ footer .content ul {
   width: 19px;
   border-radius: 5px;
 }
+.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
+  border-radius: 0px 8px 8px 0;
+}
+.search-input {
+  border-radius: 8px 0px 0px 8px !important;
+  position: relative;
+}
+.search-icon {
+  position: absolute;
+  z-index: 9999999999999;
+  /* width: 54%; */
+  margin: auto;
+  text-align: center;
+  padding: 13px 0 0 0;}
+
+  .x_slider_select select {
+    padding-right: 148px;
+}
+select {
+
+
+  background-position-y: 7px;
+}
+.swip .mySwiper .swiper-slide {
+
+  margin-left: 3px !important;
+}
+

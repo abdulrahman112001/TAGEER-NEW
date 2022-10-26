@@ -573,7 +573,7 @@ nav::after {
 
 .x_slider_select {
     float: left;
-    width: 48%;
+    /* width: 48%; */
     margin-top: 20px;
     position: relative
 }
@@ -620,6 +620,7 @@ nav::after {
 .details>div {
     display: flex;
     align-items: center;
+    justify-content: space-between;
  
 }
 
@@ -2430,11 +2431,11 @@ select {
    }
    
   .cars .swiper-button-next,  .swiper-rtl .swiper-button-prev {
-     right: -36px;
+     right: -0;
      left: auto;
    }
    .cars  .swiper-button-prev,  .swiper-rtl .swiper-button-next {
-     left: -36px;
+     left: -0;
      right: auto;
    }
    .cars .swiper-horizontal>.swiper-pagination-bullets, .cars .swiper-pagination-bullets.swiper-pagination-horizontal, .cars .swiper-pagination-custom, .cars .swiper-pagination-fraction {
