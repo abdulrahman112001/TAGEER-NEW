@@ -153,3 +153,6 @@ select {
 .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
   /* border-radius: 8px 0 0 8px !important; */
 }
+.lang svg {
+  margin: 0 5px;
+}
