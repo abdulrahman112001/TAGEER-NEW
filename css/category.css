@@ -355,7 +355,7 @@
   /* ## Drop Menu ## */
   .drop-menu {
     position: absolute;
-    top: 62px;
+    top:48px;
     left: 0;
     z-index: 99999;
      background-color: White;
@@ -408,8 +408,8 @@
     white-space: nowrap;
   }
   .drop-menu .product:hover {
-    background-color: #eee;
-  }
+      box-shadow: 0 5px 15px rgb(16 49 85 / 20%);
+  }  
   
   /* ## Sidebar ## */
   .sidebar-head {
@@ -488,14 +488,14 @@
   
   
   /* Details */
-  .details {
+  /* .details {
     margin-top: 10rem;
     margin-bottom: 40px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
-  }
+  } */
   
   /* ## FOoter ## */
   footer {
@@ -2027,7 +2027,7 @@
       width:40px;
       height:40px;
       float: left;
-      margin-left:30px;
+      /* margin-left:30px; */
       -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.70);
       -moz-box-shadow:  0px 1px 20px 0px rgba(0, 0, 0, 0.70);
       -o-box-shadow:  0px 1px 20px 0px rgba(0, 0, 0, 0.70);
@@ -2039,7 +2039,7 @@
       color:#03a9f4;
       float: left;
 
-      padding-left: 20px;
+      padding-left: 2px;
       font-size: 16px;
       font-weight: bold;
     /* text-align: center; */
