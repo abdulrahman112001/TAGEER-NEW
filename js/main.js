@@ -52,9 +52,9 @@ $('.owl-carousel').owlCarousel({
   },
 });
 
-let up = document.querySelector('.up');
+let up = document.querySelector('.up')
 window.onscroll = function () {
-  up.classList.toggle('active', this.scrollY >= 700);
+  up.classList.toggle('active', this.scrollY >= 700)
 };
 up.onclick = function () {
   window.scrollTo({

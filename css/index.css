@@ -1,7 +1,7 @@
 /* Global Style */
 @font-face { 
   font-family:'Futura';
-  src: url('../futura/futura\ light\ bt.ttf'); 
+  src: url('../futura/OpenSans-VariableFont_wdth\,wght.ttf'); 
 } 
 * {
   padding: 0;
@@ -41,7 +41,8 @@ li{
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
 }
 
 ::-webkit-scrollbar {
@@ -1733,4 +1734,72 @@ right: 20px;
  
    
 }
+
+
+.totblit-main{
+  position: relative;
+}
+.totblit:hover .totblit-data{
+  top: -160px;
+  transition: 0.3s;
+  
+}
+.totblit.mail:hover .totblit-data.mail{
+  top: -160px;
+  transition: 0.3s;
+  
+}
+.totblit.call:hover .totblit-data.call{
+  top: -160px;
+  transition: 0.3s;
+  
+}
+ .totblit-data{
+  top: 51px;
+  /* background: #eee; */
+  left: -23%;
+  width: 100%;
+  padding: 31px;
+  color: black;
+  border-radius: 10px;
+  /* overflow: hidden; */
+  z-index: 99999;
+  position: relative;
+ }
+ .totblit-data.mail{
+  top: 51px;
+  /* background: #eee; */
+  left: 0%;
+  width: 100%;
+
+  
+ }
+ .totblit-data.call{
+  top: 51px;
+  /* background: #eee; */
+  left: 25%;
+  width: 100%;
+
+  
+ }
+ .totblit-data .content{
+  background-color: white;
+  
+  width: fit-content;
+  /* padding: 10px 20px;  */
+  margin: auto;
+ }
+ .totblit-data::before{
+  content: "";
+  position: absolute;
+  bottom: 11px;
+  
+  left: 47%;
+
+  border-style: solid;
+  border-width: 10px 10px 10px 10px;
+  border-color: white transparent transparent transparent;
+
+
+ }
 
